@@ -46,7 +46,84 @@
       </header>
 
       <main class="main-inner">
-
+        <section class="hotel-filters hotel-filters-bg">
+            <h1 class="inner-title">Гостиницы Седоны</h1>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="index.html">
+                        <span class="visually-hidden">Главная</span>
+                    </a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link">Гостиницы</a>
+                </li>
+            </ul>
+            <form action="https://echo.htmlacademy.ru/" method="get">
+                <fieldset class="filter-group">
+                    <legend class="filter-title">Инфраструктура:</legend>
+                    <ul class="filter-list">
+                        <li class="filter-items">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="Swimming pool" checked>
+                                Бассейн
+                            </label>
+                        </li>
+                        <li class="filter-items">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="Parking" checked>
+                                Парковка
+                            </label>
+                        </li>
+                        <li class="filter-items">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="Wi-Fi">
+                                Wi-Fi
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="filter-group">
+                    <legend class="filter-title">Тип Жилья:</legend>
+                    <ul class="filter-list">
+                        <li class="filter-items">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="product-group" value="Hotel" checked>
+                                Гостиница
+                            </label>
+                        </li>
+                        <li class="filter-items">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="product-group" value="Motel">
+                                Мотель
+                            </label>
+                        </li>
+                        <li class="filter-items">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="product-group" value="Apartments">
+                                Аппартаменты
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="filter-group">
+                    <legend class="filter-title">Стоимость, ₽:</legend>
+                    <label class="control">
+                        <input class="control-input" type="text" name="product-group" value="0">
+                        <span class="range-title">от</span>
+                    </label>
+                    <label class="control">
+                        <input class="control-input" type="text" name="product-group" value="9000">
+                        <span class="range-title">до</span>
+                    </label>
+                    <!-- Не смог найти как правильно сделать ползунок -->
+                    <div class="slider-container">
+                        <input class="slider-thumb" type="range" min="0" max="9000">
+                    </div>
+                </fieldset>
+                <button class="submit-button button" type="submit">Применить</button>
+                <button class="reset-button button" type="reset">Сбросить</button>
+            </form>
+        </section>
       </main>
 
       <footer class="page-footer">

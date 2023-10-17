@@ -94,6 +94,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
+/* Hotel Search */
 .hotel-search {
   text-align: center;
 }
@@ -118,4 +119,34 @@ body {
   background-color: #756157;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* Subscribe */
+.subscribe {
+  text-align: center;
+  background-image: url(../images/background-subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #82B3D3;
 }

@@ -150,3 +150,12 @@ body {
   color: #FFF;
   background-color: #82B3D3;
 }
+
+/* Contacts */
+.footer-contacts-phone a {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}

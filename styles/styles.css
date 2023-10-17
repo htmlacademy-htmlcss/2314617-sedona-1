@@ -39,3 +39,10 @@ body {
   background-color: #756157;
   text-transform: uppercase;
 }
+
+/* Hero */
+.page-hero {
+  background-image: url(../images/sedona-mountains.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

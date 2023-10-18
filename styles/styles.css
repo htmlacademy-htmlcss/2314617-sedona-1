@@ -149,6 +149,7 @@ body {
   text-transform: uppercase;
   color: #FFF;
   background-color: #82B3D3;
+  border: 0;
 }
 
 /* Contacts */
@@ -158,4 +159,69 @@ body {
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* Catalog Hotel Filters */
+.hotel-filters {
+  background-image: url(../images/background-catalog.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-title {
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFF;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.filter-items {
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFF;
+}
+
+.submit-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.reset-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFF;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.catalog-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
 }

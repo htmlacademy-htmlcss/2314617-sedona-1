@@ -280,3 +280,16 @@ body {
   color: #000000;
   background-color: #F2F2F2;
 }
+
+/*Фон и стили на страницы Каталога*/
+.subscribe-bg {
+  background-image: none;
+}
+
+.subscribe-bg h2 {
+  color: #000000;
+}
+
+.subscribe-bg p {
+  color: #000000;
+}

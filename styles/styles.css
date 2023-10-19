@@ -60,7 +60,7 @@ body {
 
 /* Hero */
 .page-hero {
-  background-image: url(../images/sedona-mountains.jpg);
+  background-image: url(../images/background-mountains.jpg), url(../images/background-flag.svg);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }

@@ -155,6 +155,7 @@ body {
 /* Contacts */
 .footer-contacts-phone a {
   font-size: 40px;
+  font-style: normal;
   line-height: 40px;
   color: #000000;
   text-transform: uppercase;
@@ -281,7 +282,7 @@ body {
   background-color: #F2F2F2;
 }
 
-/*Фон и стили на страницы Каталога*/
+/*Фон и стили для блока Subscribe на страницы Каталога*/
 .subscribe-bg {
   background-image: none;
 }

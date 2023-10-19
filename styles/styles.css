@@ -22,6 +22,24 @@ body {
   background-color: #FFF;
 }
 
+/* Цвет и яроксть фона у объектов */
+.bright-item {
+  color: #FFF;
+  background-color: #82B3D3;
+}
+
+.bright-item h3 {
+  color: #FFF;
+}
+
+.low-bright-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.medium-bright-item {
+ background-color: rgba(131, 179, 211, 0.20);
+}
+
 /* Header */
 .navigation-link {
   font-size: 20px;
@@ -69,23 +87,6 @@ body {
   line-height: 28px;
   color: #000000;
   text-transform: uppercase;
-}
-/* Цвет и яроксть фона у объектов */
-.bright-item {
-  color: #FFF;
-  background-color: #82B3D3;
-}
-
-.bright-item h3 {
-  color: #FFF;
-}
-
-.low-bright-item {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.medium-bright-item {
- background-color: rgba(131, 179, 211, 0.20);
 }
 
 .services-title {

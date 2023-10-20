@@ -1,0 +1,309 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format(woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format(woff2);
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #FFF;
+}
+
+/* Цвет и яроксть фона у объектов */
+.bright-item {
+  color: #FFF;
+  background-color: #82B3D3;
+}
+
+.bright-item h3 {
+  color: #FFF;
+}
+
+.low-bright-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.medium-bright-item {
+ background-color: rgba(131, 179, 211, 0.20);
+}
+
+/* Header */
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  background-color: #FFF;
+  text-decoration: none;
+}
+
+.link-search-form {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+  background-color: #756157;
+  text-transform: uppercase;
+}
+
+/* Hero */
+.page-hero {
+  background-image: url(../images/background-mountains.jpg), url(../images/background-flag.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* Advantages */
+.advantages-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.benefits-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.services-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* Hotel Search */
+.hotel-search {
+  text-align: center;
+}
+
+.hotel-search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.hotel-search-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hotel-search-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFF;
+  background-color: #756157;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Subscribe */
+.subscribe {
+  text-align: center;
+  background-image: url(../images/background-subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #82B3D3;
+  border: 0;
+}
+
+/* Contacts */
+.footer-contacts-phone a {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Catalog Hotel Filters */
+.hotel-filters {
+  background-image: url(../images/background-catalog.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-title {
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFF;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.filter-items {
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFF;
+}
+
+.submit-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.reset-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFF;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.catalog-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.select-control {
+  color: #333333;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Catalog Hotel Product Card */
+.catalog-product-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.catalog-product-link {
+  text-decoration: none;
+}
+
+.more-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFF;
+  background-color: #756157;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.favorites-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #82B3D3;
+  border: 0;
+}
+
+/*Добавленный товар*/
+.active {
+  background-color: #7DB54F;
+}
+
+.product-rate {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+
+/*Pagination */
+.pagination-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFF;
+  background-color: #82B3D3;
+  text-decoration: none;
+}
+
+.pagination-link-active {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+/*Фон и стили для блока Subscribe на страницы Каталога*/
+.subscribe-bg {
+  background-image: none;
+}
+
+.subscribe-bg h2 {
+  color: #000000;
+}
+
+.subscribe-bg p {
+  color: #333333;
+}
+
+.field-input {
+  background-color: #F2F2F2;
+  border: 0;
+}

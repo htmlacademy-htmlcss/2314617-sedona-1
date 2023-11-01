@@ -93,6 +93,11 @@ body {
 }
 
 /* Hero */
+.welcome-logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .page-hero {
   width: 1200px;
   height: 485px;

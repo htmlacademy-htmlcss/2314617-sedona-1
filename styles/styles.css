@@ -87,6 +87,11 @@ body {
   text-transform: uppercase;
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Hero */
 .page-hero {
   width: 1200px;

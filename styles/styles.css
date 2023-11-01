@@ -33,28 +33,6 @@ body {
   background-color: #FFF;
 }
 
-/* Сетки и стили для benefits-list */
-.bright-item {
-  display: flex;
-  width: 1200px;
-  color: #FFF;
-  background-color: #82B3D3;
-}
-
-.bright-item h3 {
-  color: #FFF;
-}
-
-.low-bright-item {
-  width: 400px;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.medium-bright-item {
- width: 400px;
- background-color: rgba(131, 179, 211, 0.20);
-}
-
 /* Header */
 .navigation {
   display: flex;
@@ -132,11 +110,34 @@ body {
   text-align: center;
 }
 
+/* Блок Advantages. Сетки и стили для Benefits */
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.bright-item h3 {
+  color: #FFF;
+}
+
+.bright-item {
+  display: flex;
+  width: 1200px;
+  color: #FFF;
+  background-color: #82B3D3;
+}
+
+.low-bright-item {
+  width: 400px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.medium-bright-item {
+ width: 400px;
+ background-color: rgba(131, 179, 211, 0.20);
 }
 
 .benefits-title {
@@ -145,6 +146,18 @@ body {
   line-height: 28px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.services-list {
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+.services-item {
+  width: 400px;
 }
 
 .services-title {

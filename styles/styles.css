@@ -169,6 +169,8 @@ body {
 
 /* Hotel Search */
 .hotel-search {
+  width: 592px;
+  margin: 0 auto;
   text-align: center;
 }
 

@@ -108,6 +108,11 @@ body {
 }
 
 /* Advantages */
+.advantages-list {
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-title {
   font-size: 30px;
   font-weight: 700;

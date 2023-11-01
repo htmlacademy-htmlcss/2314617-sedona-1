@@ -169,8 +169,7 @@ body {
 
 /* Hotel Search */
 .hotel-search {
-  width: 592px;
-  margin: 0 auto;
+  padding: 96px 70px;
   text-align: center;
 }
 
@@ -199,6 +198,7 @@ body {
 
 /* Subscribe */
 .subscribe {
+  padding: 96px 70px 104px;
   text-align: center;
   background-image: url(../images/background-subscribe.jpg);
   background-size: 100% auto;

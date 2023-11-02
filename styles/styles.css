@@ -39,6 +39,11 @@ body {
   padding: 0 70px;
 }
 
+.page-logo {
+  width: 140px;
+  margin-right: 28px;
+}
+
 .navigation {
   display: flex;
   width: 1060px;

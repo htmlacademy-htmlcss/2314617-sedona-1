@@ -270,6 +270,7 @@ body {
 
 /* Catalog Hotel Filters */
 .hotel-filters {
+  width: 1200px;
   background-image: url(../images/background-catalog.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -299,6 +300,16 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #FFF;
+}
+
+.filter-group-container {
+  display: flex;
+}
+
+.filter-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .submit-button {

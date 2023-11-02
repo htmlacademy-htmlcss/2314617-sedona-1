@@ -332,7 +332,13 @@ body {
   border: 0;
 }
 
+.hotel-catalog-container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .catalog-title {
+  margin-right: 200px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -341,12 +347,18 @@ body {
 }
 
 .select-control {
+  margin-right: 70px;
   color: #333333;
   font-size: 18px;
   line-height: 21px;
 }
 
 /* Catalog Hotel Product Card */
+.product-card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .catalog-product-title {
   font-size: 24px;
   line-height: 28px;

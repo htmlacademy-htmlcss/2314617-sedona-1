@@ -24,14 +24,22 @@ html {
 
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+  height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #FFF;
+  background-color: #F2F2F2;;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.3);
 }
 
 /* Header */
@@ -46,8 +54,6 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
 }
 
 .navigation-list {
@@ -79,20 +85,15 @@ body {
   text-transform: uppercase;
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 /* Hero */
 .welcome-logo {
   display: block;
   margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .page-hero {
-  width: 1200px;
-  height: 485px;
   background-image: url(../images/background-flag.svg), url(../images/background-mountains.jpg);
   background-size: 100% auto, cover;
   background-position: center bottom, center;
@@ -127,6 +128,10 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.benefits-item-wrapper {
+  width: 400px;
 }
 
 .bright-item h3 {
@@ -241,22 +246,16 @@ body {
 /* Contacts */
 .page-footer-container {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
-  margin: 0 auto;
 }
 
 .footer-social {
   width: 200px;
-  margin-right: 236px;
-}
-
-.footer-contacts {
-  width: 500px;
 }
 
 .footer-partnership {
   width: 230px;
-  margin-left: auto;
 }
 
 .footer-contacts-phone a {
@@ -333,8 +332,7 @@ body {
 }
 
 .hotel-catalog-container {
-  width: 1060px;
-  margin: 0 auto;
+  padding: 50px 70px 60px 70px;
 }
 
 .catalog-title {

@@ -14,33 +14,60 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
 body {
+  margin: 0;
+  height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #FFF;
+  background-color: #F2F2F2;;
 }
 
-/* Цвет и яроксть фона у объектов */
-.bright-item {
-  color: #FFF;
-  background-color: #82B3D3;
-}
-
-.bright-item h3 {
-  color: #FFF;
-}
-
-.low-bright-item {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.medium-bright-item {
- background-color: rgba(131, 179, 211, 0.20);
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.3);
 }
 
 /* Header */
+.page-header {
+  padding: 0 70px;
+}
+
+.page-logo {
+  width: 140px;
+  margin-right: 28px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-list {
+  width: 460px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-user {
+  max-width: 290px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-size: 20px;
   font-weight: 700;
@@ -59,13 +86,26 @@ body {
 }
 
 /* Hero */
+.welcome-logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
+}
+
 .page-hero {
-  background-image: url(../images/background-mountains.jpg), url(../images/background-flag.svg);
-  background-size: 100% auto;
+  background-image: url(../images/background-flag.svg), url(../images/background-mountains.jpg);
+  background-size: 100% auto, cover;
+  background-position: center bottom, center;
   background-repeat: no-repeat;
 }
 
 /* Advantages */
+.advantages-list {
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-title {
   font-size: 30px;
   font-weight: 700;
@@ -81,12 +121,58 @@ body {
   text-align: center;
 }
 
+/* Блок Advantages. Сетки и стили для Benefits */
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-item-wrapper {
+  width: 400px;
+}
+
+.bright-item h3 {
+  color: #FFF;
+}
+
+.bright-item {
+  display: flex;
+  width: 1200px;
+  color: #FFF;
+  background-color: #82B3D3;
+}
+
+.low-bright-item {
+  width: 400px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.medium-bright-item {
+ width: 400px;
+ background-color: rgba(131, 179, 211, 0.20);
+}
+
 .benefits-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.services-list {
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+.services-item {
+  width: 400px;
 }
 
 .services-title {
@@ -98,6 +184,7 @@ body {
 
 /* Hotel Search */
 .hotel-search {
+  padding: 96px 70px;
   text-align: center;
 }
 
@@ -126,6 +213,7 @@ body {
 
 /* Subscribe */
 .subscribe {
+  padding: 96px 70px 104px;
   text-align: center;
   background-image: url(../images/background-subscribe.jpg);
   background-size: 100% auto;
@@ -154,8 +242,22 @@ body {
   background-color: #82B3D3;
   border: 0;
 }
-
+/* Footer */
 /* Contacts */
+.page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.footer-social {
+  width: 200px;
+}
+
+.footer-partnership {
+  width: 230px;
+}
+
 .footer-contacts-phone a {
   font-size: 40px;
   font-style: normal;
@@ -167,6 +269,7 @@ body {
 
 /* Catalog Hotel Filters */
 .hotel-filters {
+  width: 1200px;
   background-image: url(../images/background-catalog.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -198,6 +301,16 @@ body {
   color: #FFF;
 }
 
+.filter-group-container {
+  display: flex;
+}
+
+.filter-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .submit-button {
   font-size: 16px;
   font-weight: 700;
@@ -218,7 +331,12 @@ body {
   border: 0;
 }
 
+.hotel-catalog-container {
+  padding: 50px 70px 60px 70px;
+}
+
 .catalog-title {
+  margin-right: 200px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -227,12 +345,18 @@ body {
 }
 
 .select-control {
+  margin-right: 70px;
   color: #333333;
   font-size: 18px;
   line-height: 21px;
 }
 
 /* Catalog Hotel Product Card */
+.product-card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .catalog-product-title {
   font-size: 24px;
   line-height: 28px;

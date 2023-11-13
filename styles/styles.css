@@ -68,6 +68,9 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   width: 460px;
   margin: 0;
   padding: 0;
@@ -79,16 +82,30 @@ body {
   margin-left: auto;
 }
 
+.navigation-user .navigation-link {
+  min-width: 18px;
+  min-height: 18px;
+}
+
+.navigation-user a:not(.link-search-form) {
+  padding: 22px 12px;
+}
+
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  text-align: center;
   color: #000000;
   background-color: #FFF;
   text-decoration: none;
 }
 
 .link-search-form {
+  padding: 8px 34px;
+  margin-left: 20px;
   font-size: 16px;
   line-height: 20px;
   color: #FFF;

@@ -354,12 +354,26 @@ body {
 }
 
 .inner-title {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-left: 70px;
+  padding-top: 35px;
   font-size: 60px;
   line-height: 78px;
   color: #FFF;
 }
 
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  padding: 0;
+  list-style-type: none;
+}
+
 .breadcrumbs-link {
+  margin-right: 28px;
   font-size: 16px;
   line-height: 21px;
   color: #FFF;

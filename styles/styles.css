@@ -277,6 +277,8 @@ body {
 }
 
 .subscribe-title {
+  margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -284,6 +286,8 @@ body {
 }
 
 .subscribe-text {
+  margin: 0;
+  margin-bottom: 54px;
   font-size: 22px;
   line-height: 26px;
   color: #FFF;

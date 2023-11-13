@@ -169,6 +169,7 @@ body {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
+  margin-bottom: 64px;
   padding: 0;
 }
 
@@ -214,14 +215,22 @@ body {
 }
 
 .services-item {
+  text-align: center;
+  padding: 80px 85px;
   width: 400px;
 }
 
 .services-title {
+  margin: 0;
+  margin-bottom: 30px;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.services-text {
+  margin: 0;
 }
 
 /* Hotel Search */

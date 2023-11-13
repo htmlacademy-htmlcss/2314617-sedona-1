@@ -122,6 +122,7 @@ body {
 }
 
 .page-hero {
+  margin-bottom: 69px;
   background-image: url(../images/background-flag.svg), url(../images/background-mountains.jpg);
   background-size: 100% auto, cover;
   background-position: center bottom, center;
@@ -132,9 +133,12 @@ body {
 .advantages-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .advantages-title {
+  margin: 0;
+  margin-bottom: 25px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -143,10 +147,20 @@ body {
   text-align: center;
 }
 
+.advantages-title-services {
+  margin-bottom: 20px;
+}
+
 .advantages-text {
+  margin: 0;
+  margin-bottom: 90px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+}
+
+.advantages-text-services {
+  margin-bottom: 64px;
 }
 
 /* Блок Advantages. Сетки и стили для Benefits */

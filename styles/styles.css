@@ -240,6 +240,8 @@ body {
 }
 
 .hotel-search-title {
+  margin: 0;
+  margin-bottom: 20px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -248,11 +250,14 @@ body {
 }
 
 .hotel-search-text {
+  margin: 0;
+  margin-bottom: 54px;
   font-size: 22px;
   line-height: 26px;
 }
 
 .hotel-search-link {
+  padding: 8px 50px;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;

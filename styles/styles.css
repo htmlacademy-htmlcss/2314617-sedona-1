@@ -454,20 +454,16 @@ body {
 
 .product-card-buttons {
   display: flex;
+  gap: 8px;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .product-card-item .button {
-  margin-right: 8px;
   width: 48px;
   height: 48px;
   border: 2px solid #E5E5E5;
-}
-
-.product-card-item .button-list {
-  margin-right: 0;
 }
 
 .catalog-product-list {

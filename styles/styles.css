@@ -307,7 +307,7 @@ body {
 /* Contacts */
 .page-footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 1200px;
   margin: 0;
   margin-top: 40px;

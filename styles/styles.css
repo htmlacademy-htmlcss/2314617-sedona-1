@@ -215,6 +215,7 @@ body {
 }
 
 .services-item {
+  box-sizing: border-box;
   text-align: center;
   padding: 80px 85px;
   width: 400px;

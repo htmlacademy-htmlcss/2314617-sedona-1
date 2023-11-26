@@ -370,6 +370,7 @@ body {
 /* Catalog Hotel Filters */
 .hotel-filters {
   width: 1200px;
+  padding: 35px 70px;
   background-image: url(../images/background-catalog.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -377,9 +378,6 @@ body {
 
 .inner-title {
   margin: 0;
-  margin-bottom: 8px;
-  margin-left: 70px;
-  padding-top: 35px;
   font-size: 60px;
   line-height: 78px;
   color: #FFF;
@@ -387,10 +385,10 @@ body {
 
 .breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 40px;
-  margin-left: 70px;
   padding: 0;
+  padding-bottom: 40px;
   list-style-type: none;
 }
 

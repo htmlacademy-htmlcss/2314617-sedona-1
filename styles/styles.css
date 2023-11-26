@@ -449,8 +449,8 @@ body {
 }
 
 .catalog-title {
+  max-width: 350px;
   margin: 0;
-  margin-right: 200px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -460,6 +460,7 @@ body {
 
 .select-control {
   margin-right: 70px;
+  margin-left: auto;
   color: #333333;
   font-size: 18px;
   line-height: 21px;

@@ -165,14 +165,17 @@ body {
 
 .advantages-text {
   margin: 0;
-  margin-bottom: 90px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
-.advantages-text-services {
-  margin-bottom: 64px;
+.advantages-text-wrapper {
+  padding-bottom: 90px;
+}
+
+.advantages-services-wrapper {
+  padding-bottom: 64px;
 }
 
 /* Блок Advantages. Сетки и стили для Benefits */
@@ -264,9 +267,12 @@ body {
 
 .hotel-search-text {
   margin: 0;
-  margin-bottom: 54px;
   font-size: 22px;
   line-height: 26px;
+}
+
+.hotel-search-wrapper {
+  padding-bottom: 54px;
 }
 
 .hotel-search-link {
@@ -300,10 +306,13 @@ body {
 
 .subscribe-text {
   margin: 0;
-  margin-bottom: 54px;
   font-size: 22px;
   line-height: 26px;
   color: #FFF;
+}
+
+.subscribe-text-wrapper {
+  padding-bottom: 54px;
 }
 
 .subscribe-button {

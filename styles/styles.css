@@ -126,6 +126,7 @@ body {
   line-height: 20px;
   color: #FFF;
   background-color: #756157;
+  border-radius: 4px;
   text-transform: uppercase;
 }
 
@@ -304,6 +305,7 @@ body {
   line-height: 36px;
   color: #FFF;
   background-color: #756157;
+  border-radius: 4px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -337,7 +339,14 @@ body {
   padding-bottom: 54px;
 }
 
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+
 .subscribe-button {
+  padding: 8px 50px;
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -446,6 +455,8 @@ body {
 }
 
 .submit-button {
+  padding: 8px 50px;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -453,6 +464,7 @@ body {
   background-color: #82B3D3;
   text-transform: uppercase;
   border: 0;
+  border-radius: 4px;
 }
 
 .reset-button {

@@ -471,12 +471,27 @@ body {
   list-style-type: none;
 }
 
+.breadcrumbs-item:not(:last-child) {
+  display: flex;
+  background-image: url(/images/vector.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .breadcrumbs-link {
-  margin-right: 28px;
+  margin-right: 20px;
   font-size: 16px;
   line-height: 21px;
   color: #FFF;
   text-decoration: none;
+}
+
+.home-page-logo {
+  background-image: url(/images/home-page.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 15px;
+  min-height: 15px;
 }
 
 .filter-title {

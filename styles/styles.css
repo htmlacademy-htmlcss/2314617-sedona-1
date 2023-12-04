@@ -401,11 +401,11 @@ body {
 /* Contacts */
 .page-footer-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 1200px;
   margin: 0;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding: 40px 70px 30px;
 }
 
 .footer-social {
@@ -414,10 +414,16 @@ body {
 
 .footer-social-list {
   display:  flex;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.footer-social-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footer-social-link {

@@ -279,8 +279,26 @@ body {
 .services-item {
   box-sizing: border-box;
   text-align: center;
-  padding: 80px 85px;
+  padding: 185px 80px 85px;
   width: 400px;
+}
+
+.services-list .services-item:nth-child(1) {
+  background-image: url(/images/advantage-icon-1.svg);
+  background-repeat: no-repeat;
+  background-position: 162px 81px;
+}
+
+.services-list .services-item:nth-child(2) {
+  background-image: url(/images/advantage-icon-2.svg);
+  background-repeat: no-repeat;
+  background-position: 162px 81px;
+}
+
+.services-list .services-item:nth-child(3) {
+  background-image: url(/images/advantage-icon-3.svg);
+  background-repeat: no-repeat;
+  background-position: 162px 81px;
 }
 
 .services-title {

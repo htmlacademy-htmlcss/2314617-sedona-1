@@ -139,6 +139,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 69px;
+  margin-top: -3px;
   background-image: url(../images/background-flag.svg), url(../images/background-mountains.jpg);
   background-size: 100% auto, cover;
   background-position: center bottom, center;

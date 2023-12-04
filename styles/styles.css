@@ -119,6 +119,18 @@ body {
   text-decoration: none;
 }
 
+.search-icon {
+  background-image: url(/images/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.favorites-icon {
+  background-image: url(/images/favorites-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .link-search-form {
   padding: 8px 34px;
   margin-left: 20px;
@@ -140,7 +152,6 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 69px;
-  margin-top: -3px;
   background-image: url(../images/background-flag.svg), url(../images/background-mountains.jpg);
   background-size: 100% auto, cover;
   background-position: center bottom, center;

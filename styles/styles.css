@@ -131,6 +131,19 @@ body {
   background-position: center;
 }
 
+.selected-items {
+  font-size: 10px;
+  line-height: 10px;
+  padding: 5px;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  display: flex;
+  background-color: #7DB54F;
+  color: #FFFF;
+  border-radius: 50%;
+}
+
 .link-search-form {
   padding: 8px 34px;
   margin-left: 20px;

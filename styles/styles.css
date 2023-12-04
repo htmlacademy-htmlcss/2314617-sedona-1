@@ -71,8 +71,12 @@ body {
 }
 
 .page-logo {
+  display: block;
+  position: relative;
+  z-index: 2;
   width: 140px;
   margin-right: 28px;
+  margin-bottom: -6px;
 }
 
 .navigation {

@@ -559,11 +559,37 @@ body {
 }
 
 .select-control {
+  width: 100%;
+  max-width: 292px;
+  font-family: inherit;
   margin-right: 70px;
   margin-left: auto;
   color: #333333;
   font-size: 18px;
   line-height: 21px;
+  appearance: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 12px 20px;
+  padding-right: 40px;
+  background-image: url(/images/vector-down.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.select-control:hover {
+  border-color: #68A2CA;
+}
+
+.select-control:focus {
+  border-color: #E5E5E5;
+  outline: none;
+}
+
+.select-control:disabled {
+  color: #000000;
+  border: 2px solid #000000;
+  opacity: 0.3;
 }
 
 /* Catalog Hotel Product Card */

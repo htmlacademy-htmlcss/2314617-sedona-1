@@ -76,7 +76,7 @@ body {
   z-index: 2;
   width: 140px;
   margin-right: 28px;
-  margin-bottom: -6px;
+  margin-bottom: -10px;
 }
 
 .navigation {
@@ -119,6 +119,19 @@ body {
   text-decoration: none;
 }
 
+.navigation-link-current {
+  position: relative;
+}
+
+.navigation-link-current::after {
+  position: absolute;
+  content: '';
+  right: 16px;
+  left: 16px;
+  bottom: 0;
+  height: 2px;
+  background-color: #756257;
+}
 .search-icon {
   background-image: url(/images/search-icon.svg);
   background-repeat: no-repeat;

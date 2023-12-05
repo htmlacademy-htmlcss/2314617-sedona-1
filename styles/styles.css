@@ -683,6 +683,33 @@ body {
   border: 0;
 }
 
+.stars {
+  height: 17px;
+  width: 114px;
+  margin: 0;
+}
+
+.stars::before {
+  content: '';
+  display: block;
+  height: 17px;
+  background-image: url(/images/star.svg);
+  background-repeat: space no-repeat;
+  background-size: contain;
+}
+
+.stars-4::before {
+  width: 84px;
+}
+
+.stars-3::before {
+  width: 60px;
+}
+
+.stars-2::before {
+  width: 42px;
+}
+
 /*Добавленный товар*/
 .active {
   background-color: #7DB54F;

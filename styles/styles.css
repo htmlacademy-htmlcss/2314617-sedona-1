@@ -697,6 +697,7 @@ body {
 }
 
 .stars {
+  align-self: center;
   height: 17px;
   width: 114px;
   margin: 0;
@@ -732,8 +733,11 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin: 0;
+  padding: 9px 22px 8px 23px;
+  text-align: center;
   text-transform: uppercase;
   background-color: #F2F2F2;
+  border-radius: 4px;
 }
 
 /*Pagination */

@@ -487,12 +487,14 @@ body {
 
 .breadcrumbs-item:not(:last-child) {
   display: flex;
+  align-items: center;
   background-image: url(/images/vector.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .breadcrumbs-link {
+  display: block;
   margin-right: 20px;
   font-size: 16px;
   line-height: 21px;
@@ -504,8 +506,8 @@ body {
   background-image: url(/images/home-page.svg);
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 15px;
-  min-height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .filter-title {

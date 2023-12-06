@@ -133,14 +133,14 @@ body {
   background-color: #756257;
 }
 .search-icon {
-  background-image: url(/images/search-icon.svg);
+  background-image: url(../images/search-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .favorites-icon {
   position: relative;
-  background-image: url(/images/favorites-icon.svg);
+  background-image: url(../images/favorites-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -297,19 +297,19 @@ body {
 }
 
 .services-list .services-item:nth-child(1) {
-  background-image: url(/images/advantage-icon-1.svg);
+  background-image: url(../images/advantage-icon-1.svg);
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
 
 .services-list .services-item:nth-child(2) {
-  background-image: url(/images/advantage-icon-2.svg);
+  background-image: url(../images/advantage-icon-2.svg);
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
 
 .services-list .services-item:nth-child(3) {
-  background-image: url(/images/advantage-icon-3.svg);
+  background-image: url(../images/advantage-icon-3.svg);
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
@@ -488,7 +488,7 @@ body {
 .breadcrumbs-item:not(:last-child) {
   display: flex;
   align-items: center;
-  background-image: url(/images/vector.svg);
+  background-image: url(../images/vector.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -503,7 +503,7 @@ body {
 }
 
 .home-page-logo {
-  background-image: url(/images/home-page.svg);
+  background-image: url(../images/home-page.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 15px;
@@ -584,7 +584,7 @@ body {
   border-radius: 4px;
   padding: 12px 20px;
   padding-right: 40px;
-  background-image: url(/images/vector-down.svg);
+  background-image: url(../images/vector-down.svg);
   background-repeat: no-repeat;
   background-position: right 20px center;
 }
@@ -711,7 +711,7 @@ body {
   content: '';
   display: block;
   height: 17px;
-  background-image: url(/images/star.svg);
+  background-image: url(../images/star.svg);
   background-repeat: space no-repeat;
   background-size: contain;
 }

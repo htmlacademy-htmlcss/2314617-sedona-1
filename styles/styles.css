@@ -231,7 +231,12 @@ body {
   padding: 0;
 }
 
+.benefits-item {
+  position: relative;
+}
+
 .benefits-item-wrapper {
+  position: relative;
   width: 400px;
   padding: 103px 85px;
   text-align: center;
@@ -274,6 +279,28 @@ body {
   line-height: 28px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.benefits-title::after {
+  position: absolute;
+  content: '';
+  right: 170px;
+  left: 170px;
+  bottom: 185px;
+  height: 2px;
+  background-color: #000000;
+  opacity: 0.3;
+}
+
+.benefits-item-wrapper .benefits-title::after {
+  position: absolute;
+  content: '';
+  right: 170px;
+  left: 170px;
+  bottom: 195px;
+  height: 2px;
+  background-color: #FFFFFF;
+  opacity: 0.3;
 }
 
 .benefits-text {

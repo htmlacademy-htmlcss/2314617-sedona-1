@@ -434,12 +434,10 @@ body {
   list-style-type: none;
 }
 
-.footer-social-item {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 47px;
   height: 40px;
 }
@@ -447,7 +445,6 @@ body {
 .footer-partnership {
   display: flex;
   flex-wrap: wrap;
-  width: 230px;
 }
 
 .footer-contacts-phone a {

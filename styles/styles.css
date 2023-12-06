@@ -296,19 +296,21 @@ body {
   width: 400px;
 }
 
-.services-list .services-item:nth-child(1) {
+.services-home-icon {
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url(../images/advantage-icon-1.svg);
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
 
-.services-list .services-item:nth-child(2) {
+.services-food-icon {
   background-image: url(../images/advantage-icon-2.svg);
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
 
-.services-list .services-item:nth-child(3) {
+.services-gift-icon {
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url(../images/advantage-icon-3.svg);
   background-repeat: no-repeat;
   background-position: 162px 81px;

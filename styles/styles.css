@@ -438,6 +438,7 @@ body {
   color: #FFF;
   background-color: #82B3D3;
   border: 0;
+  border-radius: 0 4px 4px 0;
 }
 /* Footer */
 /* Contacts */
@@ -831,6 +832,11 @@ body {
 }
 
 .field-input {
-  background-color: #F2F2F2;
+  font-family: inherit;
+  font-size: 18px;
+  width: 452px;
+  padding: 12px 20px;
   border: 0;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
 }

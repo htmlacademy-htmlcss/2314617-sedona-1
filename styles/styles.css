@@ -770,9 +770,10 @@ body {
 }
 
 .select-control:focus {
-  border-color: #E5E5E5;
   outline: none;
+  border-color: #68A2CA;
 }
+
 
 .select-control:disabled {
   color: #000000;

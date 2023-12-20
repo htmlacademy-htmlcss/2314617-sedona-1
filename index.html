@@ -126,7 +126,7 @@
         </div>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="email-field">Ваш e-mail</label>
-          <input class="field-input" type="email" name="email" placeholder="Ваш e-mail" required>
+          <input class="field-input" id="email-field" type="email" name="newsletter-email" placeholder="Ваш e-mail" required>
           <button class="subscribe-button button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -189,6 +189,66 @@
         </section>
       </div>
     </footer>
+  </div>
+  <div class="modal-container close-modal">
+    <div class="modal-wrapper">
+      <section class="modal-window">
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+        <form action="https://echo.htmlacademy.ru/" method="get">
+          <p class="area-group">
+            <label class="search-form-label" for="checkin">
+              <span>Дата заезда:</span>
+            </label>
+            <span class="date-place-wrapper">
+              <input class="field search-form-date" id="checkin" name="checkin" type="text" placeholder="Укажите дату" maxlength="35" value="27 апреля 2020" required>
+              <span class="alerts alerts-value-invalid">Мы не можем отправить вас в прошлое.</span>
+            </span>
+          </p>
+          <p class="area-group">
+            <label class="search-form-label" for="checkout">
+              <span>Дата выезда:</span>
+            </label>
+            <span class="date-place-wrapper">
+              <input class="field search-form-date" id="checkout" name="checkout" type="text" placeholder="Укажите дату" maxlength="35" value="1 сентября 2023" required>
+              <span class="alerts">На эти даты есть свободные номера. Пока есть.</span>
+            </span>
+          </p>
+          <p class="area-group counting-area-group">
+            <span class="passengers-group">
+              <label class="search-form-label" for="adults">
+                <span>Взрослые:</span>
+              </label>
+              <button class="button-minus button-toggle" type="button">
+                <span class="visually-hidden">Уменьшить число</span>
+              </button>
+              <input class="field number-input count-input" id="adults" name="adults" type="number" placeholder="1" min="1" max="99" value="2" required>
+              <button class="button-plus button-toggle" type="button">
+                <span class="visually-hidden">Увеличить число</span>
+              </button>
+            </span>
+            <span class="passengers-group">
+              <label class="search-form-label" for="children">
+                <span>Дети:</span>
+              </label>
+              <button class="info-button" type="button">
+                <span class="tooltip">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </button>
+              <button class="button-toggle button-minus" type="button">
+                <span class="visually-hidden">Уменьшить число</span>
+              </button>
+              <input class="field number-input count-input" id="children" name="children" type="number" placeholder="0" min="0" max="99" value="2" required>
+              <button class="button-toggle button-plus" type="button">
+                <span class="visually-hidden">Увеличить число</span>
+              </button>
+            </span>
+          </p>
+          <button class="button button-modal" type="submit">Найти</button>
+          <button class="button-modal-close" type="button">
+            <span class="visually-hidden">Закрыть окно</span>
+          </button>
+        </form>
+      </section>
+    </div>
   </div>
   </body>
 </html>

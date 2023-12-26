@@ -96,21 +96,11 @@ body {
 .page-logo {
   display: block;
   position: absolute;
-  z-index: 2;
   width: 140px;
 }
 
-.page-logo:hover::before {
-  content: '';
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #756157;
-  mask-image: url(../images/sedona-logo.svg);
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-size: contain;
+.page-logo:hover {
+  opacity: 0.8;
 }
 
 .navigation {
@@ -131,6 +121,7 @@ body {
 .navigation-user {
   max-width: 290px;
   margin-left: auto;
+  flex-shrink: 0;
 }
 
 .navigation-user .navigation-link {
@@ -140,7 +131,7 @@ body {
 
 .navigation-user a:not(.link-search-form) {
   box-sizing: content-box;
-  padding: 22px 12px;
+  padding: 23px 12px;
 }
 
 .navigation-link {
@@ -200,6 +191,10 @@ body {
   background-color: #756257;
 }
 
+.search-icon svg {
+  display: block;
+}
+
 .search-icon:hover,
 .search-icon:focus-visible {
   fill: #756157;
@@ -207,6 +202,10 @@ body {
 
 .search-icon:active {
  fill: rgba(117, 97, 87, 0.3);
+}
+
+.favorites-icon svg {
+  display: block;
 }
 
 .favorites-icon {
@@ -256,6 +255,7 @@ body {
   justify-content: center;
   margin-bottom: 69px;
   background-image: url(../images/background-flag.svg), url(../images/background-mountains.jpg);
+  background-color: rgba(131, 179, 211, 0.20);
   background-size: 100% auto, cover;
   background-position: center bottom, center;
   background-repeat: no-repeat;
@@ -489,6 +489,7 @@ body {
   padding: 96px 70px 104px;
   text-align: center;
   background-image: url(../images/background-subscribe.jpg);
+  background-color: rgba(131, 179, 211, 0.20);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -619,6 +620,7 @@ body {
   width: 1200px;
   padding: 35px 70px 70px;
   background-image: url(../images/background-catalog.jpg);
+  background-color: rgba(131, 179, 211, 0.20);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -696,12 +698,8 @@ body {
   margin-bottom: 0;
 }
 
-.filter-items:hover {
-  opacity: 0.6;
-}
-
-.filter-items:active {
-  opacity: 0.3;
+.control {
+  cursor: pointer;
 }
 
 .control-filter-wrapper {
@@ -758,6 +756,34 @@ body {
   background-position: center;
 }
 
+.control-checkbox:focus-visible ~ .control-mark-checkbox {
+  outline: 3px solid #83B3D3;
+}
+
+.control-checkbox:hover ~ .control-mark-checkbox,
+.control-checkbox:hover ~ .label-control {
+  opacity: 0.6;
+}
+
+.control-checkbox:active ~ .control-mark-checkbox,
+.control-checkbox:active ~ .label-control {
+  opacity: 0.3;
+}
+
+.control-radio:focus-visible ~ .control-mark-radio {
+  outline: 3px solid #83B3D3;
+}
+
+.control-radio:hover ~ .control-mark-radio,
+.control-radio:hover ~ .label-control {
+  opacity: 0.6;
+}
+
+.control-radio:active ~ .control-mark-radio,
+.control-radio:active ~ .label-control {
+  opacity: 0.3;
+}
+
 .control-input {
   font-family: inherit;
   font-size: 18px;
@@ -766,6 +792,7 @@ body {
   width: 143px;
   padding: 12px 45px 12px 20px;
   color: #000000;
+  cursor: pointer;
 }
 
 .control-input:focus-visible {
@@ -927,6 +954,7 @@ body {
   background-image: url(../images/vector-down.svg);
   background-repeat: no-repeat;
   background-position: right 20px center;
+  cursor: pointer;
 }
 
 .select-control:hover {
@@ -1171,6 +1199,7 @@ body {
 /*Фон и стили для блока Subscribe на страницы Каталога*/
 .subscribe-bg {
   background-image: none;
+  background-color: transparent;
 }
 
 .subscribe-bg h2 {
@@ -1270,9 +1299,18 @@ body {
   background-color: #f2f2f2;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
+  -moz-appearance: textfield;
 }
 
-.field:focus, .field:hover {
+.field::-webkit-outer-spin-button,
+.field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.field:focus,
+.field:hover {
   background-color: #E6E6E6;
 }
 
@@ -1410,6 +1448,7 @@ body {
   background-position: center;
   border: 0;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .tooltip {

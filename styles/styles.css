@@ -64,7 +64,8 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #F2F2F2;;
+  background-color: #F2F2F2;
+  word-wrap: break-word;
 }
 
 .visually-hidden {
@@ -119,7 +120,6 @@ body {
 }
 
 .navigation-user {
-  max-width: 290px;
   margin-left: auto;
   flex-shrink: 0;
 }
@@ -346,10 +346,6 @@ body {
  background-color: rgba(131, 179, 211, 0.20);
 }
 
-.benefits-img {
-  object-fit: fill;
-}
-
 .benefits-title {
   margin: 0;
   margin-bottom: 63px;
@@ -492,7 +488,7 @@ body {
   text-align: center;
   background-image: url(../images/background-subscribe.jpg);
   background-color: rgba(131, 179, 211, 0.20);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -587,6 +583,15 @@ body {
   flex-wrap: wrap;
 }
 
+.footer-contacts {
+  max-width: 350px;
+}
+
+.footer-contacts-phone {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer-contacts-link {
   font-size: 40px;
   font-style: normal;
@@ -623,7 +628,7 @@ body {
   padding: 35px 70px 70px;
   background-image: url(../images/background-catalog.jpg);
   background-color: rgba(131, 179, 211, 0.20);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -820,6 +825,7 @@ body {
 
 .filter-group-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .filter-group {
@@ -1070,6 +1076,9 @@ body {
 }
 
 .more-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 6px 18px;
   font-size: 16px;
   font-weight: 700;

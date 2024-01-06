@@ -812,6 +812,11 @@ body {
   background-color: #E6E6E6;
 }
 
+.control-input:disabled {
+  color: rgba(0, 0, 0, 0.30);
+  outline: 2px solid rgba(0, 0, 0, 0.30);
+}
+
 .control-input-min {
   margin-right: 2px;
   border: none;
@@ -979,6 +984,11 @@ body {
 
 .select-control:focus-visible {
   outline: 2px solid #68A2CA;
+}
+
+.select-control:disabled {
+  color: rgba(0, 0, 0, 0.30);
+  outline: 2px solid rgba(0, 0, 0, 0.30);
 }
 
 /* Catalog Hotel Product Card */
@@ -1242,6 +1252,11 @@ body {
 .field-input:focus,
 .field-input:hover {
   background-color: #E6E6E6;
+}
+
+.field-input:disabled {
+  color: rgba(0, 0, 0, 0.30);
+  outline: 2px solid rgba(0, 0, 0, 0.30);
 }
 
 /*Модальное окно */

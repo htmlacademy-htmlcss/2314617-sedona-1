@@ -1055,6 +1055,7 @@ body {
 
 .catalog-product-card {
   display: grid;
+  align-items: start;
   grid-template-columns: repeat(2, 140px);
   gap: 16px 20px;
   padding: 19px;

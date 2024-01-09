@@ -347,6 +347,7 @@ body {
 }
 
 .benefits-title {
+  position: relative;
   margin: 0;
   margin-bottom: 63px;
   font-size: 24px;
@@ -359,9 +360,9 @@ body {
 .benefits-title::after {
   position: absolute;
   content: '';
-  right: 170px;
-  left: 170px;
-  bottom: 185px;
+  left: 85px;
+  top: 86px;
+  width: 60px;
   height: 2px;
   background-color: #000000;
   opacity: 0.3;
@@ -370,9 +371,7 @@ body {
 .benefits-item-wrapper .benefits-title::after {
   position: absolute;
   content: '';
-  right: 170px;
-  left: 170px;
-  bottom: 196px;
+  left: 85px;
   height: 2px;
   background-color: #FFFFFF;
   opacity: 0.3;

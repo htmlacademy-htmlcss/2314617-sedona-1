@@ -257,7 +257,7 @@ body {
   justify-content: center;
   margin-bottom: 69px;
   background-image: url("../images/background-flag.svg"), url("../images/background-mountains.jpg");
-  background-color: rgba(131, 179, 211, 0.20);
+  background-color: #333333;
   background-size: 100% auto, cover;
   background-position: center bottom, center;
   background-repeat: no-repeat;
@@ -487,7 +487,7 @@ body {
   padding: 96px 70px 104px;
   text-align: center;
   background-image: url("../images/background-subscribe.jpg");
-  background-color: rgba(131, 179, 211, 0.20);
+  background-color: #333333;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -627,7 +627,7 @@ body {
   width: 1200px;
   padding: 35px 70px 70px;
   background-image: url("../images/background-catalog.jpg");
-  background-color: rgba(131, 179, 211, 0.20);
+  background-color: #333333;
   background-size: cover;
   background-repeat: no-repeat;
 }

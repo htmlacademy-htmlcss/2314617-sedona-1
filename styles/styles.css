@@ -690,6 +690,7 @@ body {
 }
 
 .filter-title {
+  max-width: 160px;
   padding: 0;
   margin-bottom: 33px;
   font-size: 20px;
@@ -793,6 +794,11 @@ body {
 .control-radio:active ~ .control-mark-radio,
 .control-radio:active ~ .label-control {
   opacity: 0.3;
+}
+
+.label-control {
+  display: flex;
+  max-width: 110px;
 }
 
 .control-input {

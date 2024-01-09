@@ -887,6 +887,11 @@ body {
   outline: 3px solid #83B3D3;
 }
 
+.range-toggle:hover {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3
+}
+
 .range-toggle:active {
   outline: 2px solid #83B3D3;
 }
@@ -1500,6 +1505,11 @@ body {
   border: 0;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.info-button:hover {
+  background-color: #756157;
+  outline: 2px solid #000000;
 }
 
 .tooltip {
